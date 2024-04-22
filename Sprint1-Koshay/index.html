@@ -20,19 +20,19 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#membership">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -56,7 +56,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -89,14 +89,14 @@
           </div>
           <div class="events__cover">
             <img
-              src="/images/cafe.png"
+              src="images/cafe.png"
               alt="Image of Cafe"
               class="events__image"
             />
             <div class="person person_name_feynman">
               <p class="person__caption">Joan Feynman</p>
               <img
-                src="/images/person_feynman.png"
+                src="images/person_feynman.png"
                 alt="Joan Feynman"
                 class="person__image person__image_size_l"
               />
@@ -104,14 +104,14 @@
             <div class="person person_name_burbidge">
               <p class="person__caption">Margaret Burbidge</p>
               <img
-                src="/images/person_burbidge.png"
+                src="images/person_burbidge.png"
                 alt="Margaret Burbidge"
                 class="person__image person__image_size_m"
               />
             </div>
             <div class="person person_name_cannon">
               <img
-                src="/images/person_cannon.png"
+                src="images/person_cannon.png"
                 alt="Annie Cannon"
                 class="person__image person__image_size_m"
               />
@@ -119,7 +119,7 @@
             </div>
             <div class="person person_name_mitchell">
               <img
-                src="/images/person_mitchell.png"
+                src="images/person_mitchell.png"
                 alt="Maria Mitchell"
                 class="person__image person__image_size_s"
               />
@@ -128,7 +128,7 @@
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
               <img
-                src="/images/person_tarter.png"
+                src="images/person_tarter.png"
                 alt="Jill Tarter"
                 class="person__image person__image_size_m"
               />
@@ -136,21 +136,18 @@
           </div>
         </section>
 
-        <section class="staff">
-          <!-- --------------------------------------------------------------- -->
-          <!--        Don't uncomment until the final project stage            -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="staff__title">Staff picks</h2>
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <ul>
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
                 <p class="card__text">
                   The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or CLRS,
-                  in reference to the authors' last names, goes in-depth and
-                  covers a range of algorithms across several self-contained
+                  introduction to algorithms! Introduction to Algorithms, or
+                  CLRS, in reference to the authors' last names, goes in-depth
+                  and covers a range of algorithms across several self-contained
                   chapters.
                 </p>
                 <p class="card__footer">
@@ -168,8 +165,9 @@
                 <p class="card__text">
                   This is one of the best books for learning the fundamentals of
                   programming. Featured by MIT in one of their foundational
-                  programming courses, SICP is a general-purpose programming book
-                  that uses Scheme to illustrate various programming concepts.
+                  programming courses, SICP is a general-purpose programming
+                  book that uses Scheme to illustrate various programming
+                  concepts.
                 </p>
                 <p class="card__footer">
                   Harold Abelson, Gerald Jay Sussman, Julie Sussman
@@ -180,14 +178,15 @@
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional Programmers
+                  The Clean Coder: A Code of Conduct for Professional
+                  Programmers
                 </h3>
                 <p class="card__text">
                   Compiled by seasoned software engineer and author Robert C.
                   Martin (also known as Uncle Bob), this book covers the
-                  techniques and tools of true software craftsmanship. It explains
-                  how to write clean code and demonstrates how to cultivate the
-                  attitude of a skilled, professional programmer.
+                  techniques and tools of true software craftsmanship. It
+                  explains how to write clean code and demonstrates how to
+                  cultivate the attitude of a skilled, professional programmer.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
               </div>
@@ -201,21 +200,18 @@
                 <p class="card__text">
                   Want to know how to write robust code irrespective of the
                   architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of Software
-                  Construction. It comprehensively covers everything related to
-                  good code structure.
+                  consider reading Code Complete: A Practical Handbook of
+                  Software Construction. It comprehensively covers everything
+                  related to good code structure.
                 </p>
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-          </ul>-->
+          </ul>
         </section>
 
-        <section class="membership">
-          <!-- --------------------------------------------------------------- -->
-          <!--         Don't uncomment until the final project stage           -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -267,14 +263,11 @@
                 Enjoy all the awesome benefits of membership!
               </p>
             </li>
-          </ul>-->
+          </ul>
         </section>
 
-        <section class="about">
-          <!-- --------------------------------------------------------------- -->
-          <!--          Don't uncomment until the final project stage          -->
-          <!-- --------------------------------------------------------------- -->
-          <!--<h2 class="about__title">About the library</h2>
+        <section class="about" id="about">
+          <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -294,13 +287,52 @@
               in computer programming would love!
             </p>
           </div>
-          <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
-        <!-- ----------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage            -->
-        <!-- ----------------------------------------------------------------- -->
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Library Logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Social Media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="isntagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Christian Koshay</p>
       </footer>
     </div>
   </body>
